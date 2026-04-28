@@ -2,9 +2,10 @@
 ## Student:Anuarbek Nurkadyr
 
 ### I chose:
-### Bubble Sort (basic)
-### Merge Sort (advanced)
-### Binary Search (searching)
+#### Bubble Sort (basic)
+#### Merge Sort (advanced)
+#### Binary Search (searching)
+
 
 
 ## How each algorithm works
@@ -18,9 +19,11 @@ Time complexity: O(n log n)
 Binary search only works on sorted arrays. It looks at the middle element, and if the target is smaller it goes left, if bigger it goes right. This way it cuts the search area in half every step.
 Time complexity: O(log n)
 
-### Results
+
+## Results
 I ran each algorithm on arrays of size 10, 100, and 1000. Both random and already sorted arrays were tested.
 Array sizeBubble Sort (random)Bubble Sort (sorted)Merge Sort (random)Merge Sort (sorted)Binary Search104041 ns1250 ns5500 ns3834 ns667 ns100139583 ns80916 ns60667 ns50250 ns833 ns100011446875 ns1783083 ns117041 ns71083 ns2250 ns
+
 
 ## Analysis
 #### Which sort was faster?
